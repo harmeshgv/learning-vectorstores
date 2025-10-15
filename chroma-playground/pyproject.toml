@@ -1,0 +1,12 @@
+[project]
+name = "chroma-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "chromadb>=1.1.0",
+    "kagglehub[pandas-datasets]>=0.3.13",
+    "polars>=1.33.1",
+    "sentence-transformers>=5.1.1",
+]
